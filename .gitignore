@@ -1,2 +1,5 @@
 .idea
 *.pyc
+buurman/media
+buurman/static
+bd.sqlite3

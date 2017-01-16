@@ -52,6 +52,7 @@ INSTALLED_APPS = [
 ]
 
 ALLOWED_HOSTS = [
+    'localhost',
     '188.166.60.187'
 ]
 
@@ -106,7 +107,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'nl-nl'
 
 TIME_ZONE = 'UTC'
 
