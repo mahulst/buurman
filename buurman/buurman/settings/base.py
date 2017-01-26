@@ -53,7 +53,9 @@ INSTALLED_APPS = [
 
 ALLOWED_HOSTS = [
     'localhost',
-    '188.166.60.187'
+    '188.166.60.187',
+    'naputo.com',
+    'www.naputo.com'
 ]
 
 MIDDLEWARE = [
