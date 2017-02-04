@@ -4,12 +4,12 @@
 {% block body_class %}template-homepage{% endblock %}
 
 {% block content %}
-<h1>Site van Siem Thuis</h1>
-
 <h3>{{ self.title }}</h3>
 {% for img in self.related_images.all %}
     {% image img.image width-400 as imagedata%}
-    <img src="{{ imagedata.url }}" style="height: {{ imagedata.height }}px;" alt="{{ imagedata.alt }}" />
+    <div class="photo-container">
+        <div class="photo"  style="background-image: url({{ imagedata.url }})" ></div>
+    </div>
 {% endfor %}
 
 {% endblock %}

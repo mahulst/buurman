@@ -1,0 +1,40 @@
+.side-menu {
+    vertical-align: top;
+    width: 20%;
+    height: 100vh;
+    display: inline-block;
+    background-color: #fff;
+    font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.side-menu .title {
+    display: table;
+    margin: 20px auto;
+    padding: 9px 13px;
+    border: 3px solid #333;
+    font-size: 17px;
+    line-height: 150%;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #333;
+}
+
+.menu {
+    display: table;
+    margin: 20px auto;
+    padding-left: 0;
+}
+.menu li {
+    list-style: none;
+    margin-top: 13px;
+}
+.menu a{
+    color: #999;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

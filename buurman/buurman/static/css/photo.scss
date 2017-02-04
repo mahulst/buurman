@@ -1,0 +1,11 @@
+.photo {
+  border: 20px solid white;
+  margin: 0 10px;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+}
+.photo-container {
+  display: inline-block;
+  width: 32%;
+}
