@@ -8,6 +8,7 @@ django-sass-processor==0.5.3
 django-taggit==0.18.3
 django-treebeard==4.1.0
 djangorestframework==3.5.3
+gunicorn==19.6.0
 html5lib==0.999999999
 libsass==0.12.3
 olefile==0.44

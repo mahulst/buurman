@@ -54,7 +54,8 @@ INSTALLED_APPS = [
 
 ALLOWED_HOSTS = [
     'localhost',
-    '188.166.60.187',
+    '127.0.0.1',
+    '146.185.183.228',
     'naputo.com',
     'www.naputo.com'
 ]
@@ -102,7 +103,7 @@ WSGI_APPLICATION = 'buurman.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, '../data/db.sqlite3'),
     }
 }
 

@@ -3,3 +3,4 @@
 buurman/media
 buurman/static
 bd.sqlite3
+buurman/buurman/settings/secret.py
